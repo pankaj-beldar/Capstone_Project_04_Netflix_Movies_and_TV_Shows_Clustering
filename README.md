@@ -61,9 +61,9 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 
 2. K-Means with Elbow method with word2vec has 5 optimum clusters.
 
-3.Agglomerative Clustering with dendogram with word2vec has 5 optimum clusters
+3. Agglomerative Clustering with dendogram with word2vec has 5 optimum clusters
 
-4.Agglomerative Clustering with 0.53 silhouette_score with word2vec gives 4 clusters
+4. Agglomerative Clustering with 0.53 silhouette_score with word2vec gives 4 clusters
 
 5. Affinity propagation clustering with woed2vec has 5 optimum clusters
 
