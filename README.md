@@ -67,7 +67,7 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 
 5. Affinity propagation clustering with woed2vec has 5 optimum clusters
 
-# **Clstering with CountVectorizer**
+# **Clustering with CountVectorizer**
 
 1. It is observed that , after using CountVectorizer and tfidfVectorizer, we get the less silhouette_score as 0.032
 
