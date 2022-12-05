@@ -1,4 +1,4 @@
-# Capstone_Project_04_Project_Netflix_Movies_and_TV_Shows_Clustering
+# Netflix_Movies_and_TV_Shows_Clustering
 
 # <font color='green'>**Problem Statment**</font>
 
@@ -31,7 +31,7 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 1. The attribute **'diector','cast','country','date_added','rating' consists of missing values.** To tackle with missing values , we will replace 'country' and 'rating' missing values by most frequent entity that is 'United States' and 'TV-MA' respectively. missing values in 'cast' by 'unknown'. There are around **30.68 % values are missing in 'director'**, hence we decide to drop it.
 
 
-2. **69% of the content available on Netflix are movies; the remaining 31% are TV Shows.****Netflix has 5377 movies**, which is more than double the quantity of TV shows. In recents year more number of TV Shows are released as compared to Movies on Netflix. Less number of TV shows and Movies were released in 2020-2021 due to corona virus pendamic. **Most of the Movies/TV Shows were added in the month of December and January.**
+2. **69% of the content available on Netflix are movies; the remaining 31% are TV Shows** .**Netflix has 5377 movies**, which is more than double the quantity of TV shows. In recents year more number of TV Shows are released as compared to Movies on Netflix. Less number of TV shows and Movies were released in 2020-2021 due to corona virus pendamic. **Most of the Movies/TV Shows were added in the month of December and January.**
 
 
 3. **Number of Movies added on Netflix are more as compared to TV Shows throughout the year. In recent few year more number of TV Shows were added on NetFlix as comapared to Movies , We can say Netflix is more focusing on TV Shows than Movies.** 
