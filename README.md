@@ -25,7 +25,7 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 8. Recommendation System
 9. Conclusion
 
-# **9.1 Exploratory Data Analysis**
+# **Exploratory Data Analysis**
 
 
 1. The attribute **'diector','cast','country','date_added','rating' consists of missing values.** To tackle with missing values , we will replace 'country' and 'rating' missing values by most frequent entity that is 'United States' and 'TV-MA' respectively. missing values in 'cast' by 'unknown'. There are around **30.68 % values are missing in 'director'**, hence we decide to drop it.
@@ -53,3 +53,24 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 
 
 10. **It is observed that content available for kids is less as compared to other categories. Content available for Adults is more in almost every country expect India. In India, Most of the content is available for Teens. Netflix should foucus on Teen and Adult Contents to generate maximum revenue.** **Spain and Mexico is producing highest Adult Content on Netflix almost 84% and 77% respectively.**
+
+
+# **Clustering with Word2vec**
+
+1. K-Means with 0.6092 silhouette_score with word2vec has optimum number of clusters as 6
+
+2. K-Means with Elbow method with word2vec has 5 optimum clusters.
+
+3.Agglomerative Clustering with dendogram with word2vec has 5 optimum clusters
+
+4.Agglomerative Clustering with 0.53 silhouette_score with word2vec gives 4 clusters
+
+5. Affinity propagation clustering with woed2vec has 5 optimum clusters
+
+# **Clstering with CountVectorizer**
+
+1. It is observed that , after using CountVectorizer and tfidfVectorizer, we get the less silhouette_score as 0.032
+
+2. Hence we can say word2vec word embending method is more suitable for our model.
+
+
