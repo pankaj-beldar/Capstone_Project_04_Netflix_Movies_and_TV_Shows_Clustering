@@ -1,5 +1,7 @@
 # Netflix_Movies_and_TV_Shows_Clustering
 
+# Score Obtained :100/100
+
 # <font color='green'>**Problem Statment**</font>
 
 
